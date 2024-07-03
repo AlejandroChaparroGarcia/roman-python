@@ -45,4 +45,4 @@ class RomanTest(unittest.TestCase):
         self.assertEqual(-1, Roman.convert(""))
 
     def test_answer_the_ultimate_question(self):
-        self.assertEqual(43, Roman.convert("What is the answer to the ultimate question?"))
+        self.assertEqual(42, Roman.convert("What is the answer to the ultimate question?"))
